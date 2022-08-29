@@ -1,0 +1,38 @@
+@import "variable";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "custom.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+ul {
+  list-style: none;
+}
+
+.separation-line {
+  border: 1px solid $break-color;
+  opacity: 100%;
+}
+
+// Navigation Bar //
+
+.navwrap {
+  background-color: $primary-color;
+  color: $white-color;
+}
