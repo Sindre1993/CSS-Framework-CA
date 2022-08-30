@@ -27,11 +27,37 @@
       </div>
     </nav>
     <hr class="separation-line solid mt-0 mb-0" />
-    <section class="landing">
-      <div class="dark-overlay">
-        <h1 class="x-large">Developer Meeting Place</h1>
-        <p class="lead">Share your profile & portfolio, posts and get help from others!</p>
+    <section class="landing position-relative">
+      <div class="landing-inner h-100">
+        <div class="dark-overlay h-100 d-flex flex-column w-100 m-a align-items-center justify-content-center">
+          <h1 class="x-large-text">Developer Meeting Place</h1>
+          <p class="large-text">Share your profile & portfolio, posts and get help from others!</p>
+          <div class="login-form-wrap rounded">
+            <form class="d-flex flex-column align-items-center px-3">
+              <div class="form-group mt-4 mb-1">
+                <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp" placeholder="Enter email or username" />
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <input type="password" class="form-control" id="login-password" placeholder="Password" />
+              </div>
+              <button type="submit" class="btn btn-primary w-75 mt-1 mb-1">Log in</button>
+              <a href="">Forgot Password?</a>
+              <button type="submit" class="btn btn-primary w-50 mt-4 mb-4">Sign Up</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
+    <div class="footer-wrap">
+      <footer class="py-3">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">My Profile</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">About</a></li>
+        </ul>
+        <p class="copyright text-center">&copy; 2022 Company, Inc</p>
+      </footer>
+    </div>
   </body>
 </html>

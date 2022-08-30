@@ -36,3 +36,42 @@ ul {
   background-color: $primary-color;
   color: $white-color;
 }
+
+// Main Content //
+
+.landing {
+  background: url(../../dist/css/img/background-login.jpg) no-repeat center center/cover;
+  height: 100vh;
+
+  & h1 {
+    color: $white-color;
+  }
+
+  & p {
+    color: $white-color;
+  }
+}
+
+// Footer //
+
+.footer-wrap {
+  background-color: $primary-color;
+
+  &li {
+    color: $button-color;
+  }
+}
+
+.copyright {
+  color: white;
+}
+
+// Form //
+
+.form-control {
+  width: 22rem;
+}
+
+.login-form-wrap {
+  background: rgba($color: #1a1d20, $alpha: 0.8);
+}
