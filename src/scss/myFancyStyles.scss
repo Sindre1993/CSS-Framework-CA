@@ -60,7 +60,7 @@ ul {
   width: 90%;
 }
 
-// Home Page - Left //
+// Home Page/Profile Page - Left //
 
 .left {
   width: 350px;
@@ -71,6 +71,33 @@ ul {
   & p {
     color: $white-color;
   }
+}
+
+.left-profile {
+  width: 600px;
+  height: 400px;
+  background-color: $primary-color;
+  border: 2px solid $break-color;
+
+  & p {
+    color: $white-color;
+  }
+}
+
+.left-profile-specific {
+  width: 600px;
+  height: 685px;
+  background-color: $primary-color;
+  border: 2px solid $break-color;
+
+  & p {
+    color: $white-color;
+  }
+}
+
+.my-profile-image {
+  height: 150px;
+  width: 150px;
 }
 
 .profile-image-attributes {
