@@ -16,6 +16,10 @@ body {
   color: #333;
 }
 
+section {
+  background: $backgroundBody-color;
+}
+
 a {
   text-decoration: none;
   color: $link-color;
@@ -52,6 +56,39 @@ ul {
   }
 }
 
+.content-wrap {
+  width: 90%;
+}
+
+// Home Page - Left //
+
+.left {
+  width: 350px;
+  height: 400px;
+  background-color: $primary-color;
+  border: 2px solid $break-color;
+
+  & p {
+    color: $white-color;
+  }
+}
+
+.profile-image-attributes {
+  height: 100px;
+  width: 100px;
+}
+
+.friends-image-attributes {
+  height: 100px;
+  width: 100px;
+}
+
+// Home Page - Right //
+
+.right {
+  background-color: $primary-color;
+  border: 2px solid $break-color;
+}
 // Footer //
 
 .footer-wrap {

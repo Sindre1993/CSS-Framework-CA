@@ -10934,6 +10934,10 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
 }
 
+.icon-size {
+  font-size: 1.5rem;
+}
+
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -10967,6 +10971,10 @@ body {
   color: #333;
 }
 
+section {
+  background: #545454;
+}
+
 a {
   text-decoration: none;
   color: #e3eecd;
@@ -10995,6 +11003,35 @@ ul {
 }
 .landing p {
   color: #fff;
+}
+
+.content-wrap {
+  width: 90%;
+}
+
+.left {
+  width: 350px;
+  height: 400px;
+  background-color: #1a1d20;
+  border: 2px solid #40676e;
+}
+.left p {
+  color: #fff;
+}
+
+.profile-image-attributes {
+  height: 100px;
+  width: 100px;
+}
+
+.friends-image-attributes {
+  height: 100px;
+  width: 100px;
+}
+
+.right {
+  background-color: #1a1d20;
+  border: 2px solid #40676e;
 }
 
 .footer-wrap {
