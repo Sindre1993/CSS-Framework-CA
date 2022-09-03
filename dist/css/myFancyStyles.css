@@ -11000,6 +11000,10 @@ ul {
   color: #628a6d;
 }
 
+.navbar-toggler {
+  background: #e3eecd;
+}
+
 .landing {
   background: url(../../dist/css/img/background-login.jpg) no-repeat center center/cover;
   height: 100vh;
@@ -11078,8 +11082,4 @@ ul {
 
 .login-form-wrap {
   background: rgba(26, 29, 32, 0.8);
-}
-
-.nav-active {
-  color: red;
 }/*# sourceMappingURL=myFancyStyles.css.map */

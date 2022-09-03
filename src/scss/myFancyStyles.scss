@@ -49,6 +49,10 @@ ul {
   }
 }
 
+.navbar-toggler {
+  background: $link-color;
+}
+
 // Main Content //
 
 .landing {
@@ -146,10 +150,4 @@ ul {
 
 .login-form-wrap {
   background: rgba($color: #1a1d20, $alpha: 0.8);
-}
-
-// active //
-
-.nav-active {
-  color: red;
 }
