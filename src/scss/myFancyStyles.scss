@@ -57,13 +57,13 @@ ul {
 }
 
 .content-wrap {
-  width: 90%;
+  //   width: 90%;
 }
 
 // Home Page/Profile Page - Left //
 
 .left {
-  width: 350px;
+  width: auto;
   height: 400px;
   background-color: $primary-color;
   border: 2px solid $break-color;
@@ -138,4 +138,10 @@ ul {
 
 .login-form-wrap {
   background: rgba($color: #1a1d20, $alpha: 0.8);
+}
+
+// active //
+
+.active {
+  color: $button-color-dark;
 }
