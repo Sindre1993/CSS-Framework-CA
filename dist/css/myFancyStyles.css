@@ -10948,6 +10948,7 @@ textarea.form-control-lg {
 .btn {
   display: inline-block;
   background: #acd1b6;
+  color: black;
   border: none;
   cursor: pointer;
   font-size: 1rem;
@@ -10977,7 +10978,7 @@ section {
 
 a {
   text-decoration: none;
-  color: #e3eecd;
+  color: #408e61;
 }
 
 ul {
