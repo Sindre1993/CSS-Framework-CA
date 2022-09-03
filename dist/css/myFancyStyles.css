@@ -10993,6 +10993,12 @@ ul {
   background-color: #1a1d20;
   color: #fff;
 }
+.navwrap a {
+  color: #e3eecd;
+}
+.navwrap a:hover {
+  color: #628a6d;
+}
 
 .landing {
   background: url(../../dist/css/img/background-login.jpg) no-repeat center center/cover;
@@ -11074,6 +11080,6 @@ ul {
   background: rgba(26, 29, 32, 0.8);
 }
 
-.active {
-  color: #628a6d;
+.nav-active {
+  color: red;
 }/*# sourceMappingURL=myFancyStyles.css.map */

@@ -39,6 +39,14 @@ ul {
 .navwrap {
   background-color: $primary-color;
   color: $white-color;
+
+  & a {
+    color: $link-color;
+  }
+
+  & a:hover {
+    color: $button-color-dark;
+  }
 }
 
 // Main Content //
@@ -142,6 +150,6 @@ ul {
 
 // active //
 
-.active {
-  color: $button-color-dark;
+.nav-active {
+  color: red;
 }
