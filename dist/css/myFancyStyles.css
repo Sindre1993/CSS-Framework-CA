@@ -11007,7 +11007,7 @@ ul {
 
 .left {
   width: auto;
-  height: 400px;
+  height: auto;
   background-color: #1a1d20;
   border: 2px solid #40676e;
 }
@@ -11026,7 +11026,7 @@ ul {
 }
 
 .left-profile-specific {
-  width: 600px;
+  width: auto;
   height: 690px;
   background-color: #1a1d20;
   border: 2px solid #40676e;
